@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		499E45AA20264CF200D2F181 /* PostItImageTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499E45A920264CF200D2F181 /* PostItImageTVCell.swift */; };
-		522413F12027CA4E00F26057 /* Column+Drop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522413F02027CA4E00F26057 /* Column+Drop.swift */; };
+		522D555720260F09009E6A0D /* Column+Drag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522D555620260F09009E6A0D /* Column+Drag.swift */; };
 		522D5559202610AC009E6A0D /* DragDropSession_AuxSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522D5558202610AC009E6A0D /* DragDropSession_AuxSingleton.swift */; };
+		522D555B20262F29009E6A0D /* Column+Drop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522D555A20262F29009E6A0D /* Column+Drop.swift */; };
 		52A0FB9520224D7A001F198A /* PostItTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A0FB9420224D7A001F198A /* PostItTVCell.swift */; };
-		52A37AC320279624006BC217 /* Column+Drag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A37AC220279624006BC217 /* Column+Drag.swift */; };
 		52B0C795202234FE0034390F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B0C794202234FE0034390F /* AppDelegate.swift */; };
 		52B0C797202234FE0034390F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B0C796202234FE0034390F /* ViewController.swift */; };
 		52B0C79A202234FE0034390F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B0C798202234FE0034390F /* Main.storyboard */; };
@@ -22,10 +22,10 @@
 
 /* Begin PBXFileReference section */
 		499E45A920264CF200D2F181 /* PostItImageTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostItImageTVCell.swift; sourceTree = "<group>"; };
-		522413F02027CA4E00F26057 /* Column+Drop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Column+Drop.swift"; sourceTree = "<group>"; };
+		522D555620260F09009E6A0D /* Column+Drag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Column+Drag.swift"; sourceTree = "<group>"; };
 		522D5558202610AC009E6A0D /* DragDropSession_AuxSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragDropSession_AuxSingleton.swift; sourceTree = "<group>"; };
+		522D555A20262F29009E6A0D /* Column+Drop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Column+Drop.swift"; sourceTree = "<group>"; };
 		52A0FB9420224D7A001F198A /* PostItTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostItTVCell.swift; sourceTree = "<group>"; };
-		52A37AC220279624006BC217 /* Column+Drag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Column+Drag.swift"; sourceTree = "<group>"; };
 		52B0C791202234FE0034390F /* Kanban.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kanban.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B0C794202234FE0034390F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52B0C796202234FE0034390F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -92,8 +92,8 @@
 			isa = PBXGroup;
 			children = (
 				52EAD58A20237F32004483AB /* Column.swift */,
-				52A37AC220279624006BC217 /* Column+Drag.swift */,
-				522413F02027CA4E00F26057 /* Column+Drop.swift */,
+				522D555620260F09009E6A0D /* Column+Drag.swift */,
+				522D555A20262F29009E6A0D /* Column+Drop.swift */,
 			);
 			path = Column;
 			sourceTree = "<group>";
@@ -171,10 +171,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				52B0C797202234FE0034390F /* ViewController.swift in Sources */,
+				522D555720260F09009E6A0D /* Column+Drag.swift in Sources */,
 				499E45AA20264CF200D2F181 /* PostItImageTVCell.swift in Sources */,
-				522413F12027CA4E00F26057 /* Column+Drop.swift in Sources */,
 				52B0C795202234FE0034390F /* AppDelegate.swift in Sources */,
-				52A37AC320279624006BC217 /* Column+Drag.swift in Sources */,
+				522D555B20262F29009E6A0D /* Column+Drop.swift in Sources */,
 				52A0FB9520224D7A001F198A /* PostItTVCell.swift in Sources */,
 				52EAD58B20237F32004483AB /* Column.swift in Sources */,
 				522D5559202610AC009E6A0D /* DragDropSession_AuxSingleton.swift in Sources */,

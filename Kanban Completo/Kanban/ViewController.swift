@@ -13,11 +13,11 @@ class ViewController: UIViewController {
     
     // Variaveis
     var sprintBacklog_DataSource: [Any] = ["Pensar", #imageLiteral(resourceName: "opa"), "Refletir", "Pesquisar", "Olhar"]
-    var toDo_DataSource: [Any] = ["Fazer coisas", #imageLiteral(resourceName: "opa"), "Programar"]
-    var doing_DataSource: [Any] = ["Pensando", "Fazendo", #imageLiteral(resourceName: "opa"),"Digitando"]
-    var testing_DataSource: [Any] = ["Tentando", "Analisando", #imageLiteral(resourceName: "opa")]
-    var done_DataSource: [Any] = [#imageLiteral(resourceName: "opa"), "Completando", "Respirando", "Acabando"]
-    var discarded_DataSource: [Any] = ["Inutil", #imageLiteral(resourceName: "opa"), "Não serve"]
+    var toDo_DataSource: [Any] = ["Fazer coisas", "Programar"]
+    var doing_DataSource: [Any] = ["Pensando", "Fazendo", "Digitando"]
+    var testing_DataSource: [Any] = ["Tentando", "Analisando"]
+    var done_DataSource: [Any] = ["Completando", "Respirando", "Acabando"]
+    var discarded_DataSource: [Any] = ["Inutil", "Não serve"]
         
     override func viewDidLoad() {
         super.viewDidLoad()

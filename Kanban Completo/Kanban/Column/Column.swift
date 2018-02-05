@@ -11,7 +11,6 @@ class Column: UITableView, UITableViewDelegate, UITableViewDataSource {
         super.init(coder: aDecoder)
         self.delegate = self
         self.dataSource = self
-        
         self.dragDelegate = self
         self.dropDelegate = self
     }
